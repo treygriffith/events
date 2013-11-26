@@ -5,10 +5,12 @@
   },
   "development": {
     "component/assert": "*",
-    "adamsanderson/trigger-event": "*"
+    "adamsanderson/trigger-event": "*",
+    "component/domify": "*"
   },
   "scripts": [
     "index.js"
   ],
+  "license": "MIT",
   "main": "index.js"
 }

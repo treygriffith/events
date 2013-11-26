@@ -30,7 +30,7 @@ Events.prototype.bind = function (el, evt, fn) {
   events[evt] = events[evt] || [];
   events[evt].push(fn);
 
-  event.bind(el, fn);
+  event.bind(el, evt, fn);
 
   return fn;
 };
