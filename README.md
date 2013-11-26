@@ -53,7 +53,7 @@ events.unbind(a); // remove all event listeners
 
 ### .unbind(el, type, callback)
 
-  Unbind events from `el`, optionally specified by `type` and `callback`
+  Unbind events from `el`, optionally specified by `type` and `callback`,
   returns an array of unbound callbacks
 
 ## License
